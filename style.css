@@ -6,20 +6,58 @@ body {
   }
   
   .header {
-    background-color: #4f0707;
-    color: #ffffff;
-    padding: 25px;
+    background-color: #500404;
+    color: #ff7979;
+    padding: 30px;
     text-align: center;
   }
   
   .logo {
-    font-size: 24px;
+    font-size: 35px;
     font-weight: bold;
+    text-decoration-line: underline;
   }
-  
-  .section {
-    background-color: #050505;
-    color: #fdfdfd;
+
+  .Secondary {
+    font-size: 25px;
+    text-decoration-line: underline;
+  }
+
+  .IWelcome {
+    color: #ff0000;
+    font-size: 40px;
+    padding: 10px;
+    background-color: #0f0f0f;
+    border-radius: 25px;
+    text-shadow: 2px 2px 10px rgb(255, 0, 0);
+    box-shadow: 5px 5px 10px red;
+    margin-bottom: 250px;
+    margin-top: 300px;
+    margin-left: 30% ;
+    width: 40%;
+    text-align: center;
+    
+  }
+
+  .SectionI {
+    background-color: #080808;
+    color: hwb(0 32% 0%);
     padding: 40px;
     text-align: center;
+    border-radius: 25px;
+    width: 75%;
+    margin-left: 10%;
+    
+  }
+
+  .MainI {
+    text-shadow:2px 2px 5px #ff0000;
+    font-size: 35px;
+
+  }
+
+  .TextI {
+    font-size: 20px;
+    color: #b63c3c;
+    text-shadow:1px 1px 1px #ff0000;
   }
