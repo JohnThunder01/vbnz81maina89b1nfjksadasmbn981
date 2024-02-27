@@ -31,7 +31,7 @@ body {
     background-color: #1a1a1a;
     border-radius: 25px;
     text-shadow: 2px 2px 5px rgb(255, 0, 0);
-    box-shadow: 6px 6px 18px red;
+    box-shadow: 6px 4px 18px red;
     margin-bottom: 250px;
     margin-top: 300px;
     margin-left: 30% ;
@@ -48,7 +48,19 @@ body {
     border-radius: 25px;
     width: 75%;
     margin-left: 10%;
-    box-shadow: 5px 5px 15px red;
+    box-shadow: 2.5px 6px 15px red;
+    margin-bottom: 300px;
+  }
+
+  .SectionII {
+    background-color: #111111;
+    color: hwb(0 32% 0%);
+    padding: 40px;
+    text-align: center;
+    border-radius: 25px;
+    width: 45%;
+    margin-left: 25%;
+    box-shadow: 2.5px 6px 15px red;
   }
 
   .MainI {
@@ -58,7 +70,13 @@ body {
   }
 
   .TextI {
-    font-size: 20px;
+    font-size: 21px;
+    color: #b63c3c;
+    text-shadow:1px 2px 3px #ff0000;
+  }
+
+  .TextII {
+    font-size: 22.5px;
     color: #b63c3c;
     text-shadow:1px 2px 3px #ff0000;
   }
@@ -76,5 +94,6 @@ body {
   height: 9.5px;
   border-radius: 25px;
   /* Adjust the height as needed */
-  background: linear-gradient(to right, rgb(59, 0, 0), rgb(255, 0, 0), rgb(209, 65, 65), rgb(255, 0, 0), rgb(59, 0, 0));
+  background: linear-gradient(to right, rgb(73, 2, 2), rgb(255, 0, 0), rgb(206, 57, 57), rgb(255, 0, 0), rgb(73, 0, 0));
 }
+
