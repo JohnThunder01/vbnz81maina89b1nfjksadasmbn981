@@ -7,9 +7,10 @@ body {
   
   .header {
     background-color: #500404;
-    color: #ff7979;
+    color: #ff9b9b;
     padding: 30px;
     text-align: center;
+    text-shadow: 2px 4px #000000;
     box-shadow: 5px 5px 15px 5px #ff0000;
   }
   
@@ -28,15 +29,15 @@ body {
     color: #ff0000;
     font-size: 40px;
     padding: 10px;
-    background-color: #1a1a1a;
+    background-color: #111111;
     border-radius: 25px;
-    text-shadow: 2px 2px 5px rgb(255, 0, 0);
+    text-shadow: 2px 2px 5px rgb(133, 83, 83);
     box-shadow: 6px 4px 18px red;
     margin-bottom: 250px;
     margin-top: 300px;
     margin-left: 30% ;
     width: 40%;
-    text-align: center;
+    text-align: center; 
     
   }
 
@@ -84,9 +85,9 @@ body {
   }
 
   .TextI {
-    font-size: 23px;
+    font-size: 21.5px;
     color: #ff0000;
-    text-shadow: 1px 2px 7px #c40101;
+    text-shadow: 1px 2px 5px #ff0000;
   }
 
   .TextII {
@@ -97,7 +98,7 @@ body {
   }
 
   .TextII_left {
-    font-size: 23px;
+    font-size: 22.5px;
     color: #ff0000;
     text-shadow: 1px 2px 7px #ff0000;
     text-align: left;
@@ -105,7 +106,7 @@ body {
   }
 
   .TextIII {
-    font-size: 21.5px;
+    font-size: 20.5px;
     color: #ff0000;
     text-shadow: 1px 2.5px 7px #e00000;
     text-align: left;
