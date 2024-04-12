@@ -11,7 +11,7 @@ body {
     padding: 30px;
     text-align: center;
     text-shadow: 2px 4px #000000;
-    box-shadow: 5px 5px 15px 5px #ff0000;
+    box-shadow: 2px 5px 20px 2px #ff0000;
   }
   
   .logo {
@@ -78,6 +78,19 @@ body {
     margin-top: 250px;
   }
 
+  .SectionIV {
+    background-color: #111111;
+    color: hwb(0 32% 0%);
+    padding: 40px;
+    text-align: center;
+    border-radius: 25px;
+    width: 65%;
+    margin-left: 15%;
+    box-shadow: 2.5px 6px 15px red;
+    margin-top: 350px;
+    margin-bottom: 150px;
+  }
+
   .MainI {
     text-shadow:2px 2px 5px #ff0000;
     font-size: 35px;
@@ -110,6 +123,23 @@ body {
     color: #ff0000;
     text-shadow: 1px 2.5px 7px #e00000;
     text-align: left;
+  }
+
+  .TextIV { 
+    font-size: 22.5px;
+    color: #ff0000;
+    text-shadow: 1px 2.5px 7px #e00000;
+    text-align: center;
+  }
+
+  .TeleButton {
+    padding: 25px;
+    font-size: 25px;
+    color: #ff0000; 
+    background: #2b0202;
+    border-radius: 25px;
+    cursor: pointer;
+    text-shadow: 1px 1px 3px #ff0000;
   }
 
   .Rule_ {
