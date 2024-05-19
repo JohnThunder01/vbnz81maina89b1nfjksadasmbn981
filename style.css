@@ -18,7 +18,7 @@ body {
 }
 
 .header_tittle {
-    font-size: 30px;
+    font-size: 1.2vw;
     text-align: left;
     font-family: MainFont;
     margin-left: 70px;
@@ -29,7 +29,7 @@ body {
     position: absolute;
     top: 15px;
     left: 25px;
-    font-size: 24px;
+    font-size: 1vw;
     background-color: #000000;
     color: #fff;
     border: none;
@@ -41,12 +41,12 @@ body {
 
 .menu {
     background-color: #fff1b3;
-    width: 200px;
-    padding: 10px;
+    width: 9vw;
+    padding: 0.5vw;
     margin-top: 0px;
     transition: transform 0.35s ease-in-out;
     transform: translateX(-100%);
-    font-size: 19px;
+    font-size: 0.8vw;
     font-weight: 600;
 }
 
@@ -73,12 +73,12 @@ body {
 
 .button {
     display: inline-block;
-    padding: 12px 25px;
+    padding: 0.5vw 1vw;
     background-color: #000000;
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 0.9vw;
     cursor: pointer;
     border-radius: 25px;
     margin-top: 16px;
@@ -88,5 +88,5 @@ body {
   }
   
   .button:hover {
-    background-color: #857a00;
+    background-color: #0f1e22;
   }
