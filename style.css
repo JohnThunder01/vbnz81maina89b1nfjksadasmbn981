@@ -21,16 +21,16 @@ body {
     color: black;
     float: left;
     position: absolute;
-    margin-left: 250px;
+    margin-left: 10.15%;
     top: 13px;
-    font-size: 18px;
+    font-size: 113%;
 }
 
 .header_tittle {
-    font-size: 30px;
+    font-size: 188%;
     text-align: left;
     font-family: MainFont;
-    margin-left: 70px;
+    margin-left: 2.9%;
 }
 
 .containerI {
@@ -41,7 +41,7 @@ body {
     position: absolute;
     top: 15px;
     left: 25px;
-    font-size: 24px;
+    font-size: 150%;
     background-color: #000000;
     color: #fff;
     border: none;
@@ -50,6 +50,7 @@ body {
     border-radius: 20px;
     padding: 10px;
     border-end-end-radius: 90px;
+    z-index: 1;
 }
 
 .menu-btn:hover {
@@ -99,7 +100,7 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 125%;
     cursor: pointer;
     border-radius: 25px;
     margin-top: 16px;
@@ -123,6 +124,7 @@ body {
     inset: 0;
     width: 17.5%;
     left: 76.5%;
+    z-index: 2; 
 }
 
 @media (max-width: 800px) {
@@ -137,7 +139,7 @@ body {
 
 .LogPageX {
     position: absolute;
-    right: 6%;
+    right: 4.5%;
     top: 1.5%;
     font-size: 225%;
     display: inline-block;
@@ -229,4 +231,8 @@ input[type=text], input[type=password] {
     font-size: 80%;
     width: 97%;
     
+}
+
+::placeholder {
+    color: black;
 }
