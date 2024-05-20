@@ -33,18 +33,27 @@ body {
     margin-left: 2.9%;
 }
 
-@media (max-width: 1350px) {
+
+@media (max-width: 1000px) {
     .header_tittle {
         margin-left: 15%;
         font-size: 110%;
+        margin-top: 2%;
     }
 
     .SubHeader {
         margin-left: 21%;
-        top: 10px;
         font-size: 75%;
+        top: 25px;
     }   
+
+    .header {
+        padding: 29px;
+    }
 }
+   
+
+
 
 .containerI {
     display: flex;
