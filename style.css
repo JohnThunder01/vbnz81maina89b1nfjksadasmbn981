@@ -47,8 +47,13 @@ body {
     border: none;
     cursor: pointer;
     float: left;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
+    border-end-end-radius: 90px;
+}
+
+.menu-btn:hover {
+    background-color: #61500a;
 }
 
 .menu {
@@ -91,7 +96,7 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 0.9vw;
+    font-size: 20px;
     cursor: pointer;
     border-radius: 25px;
     margin-top: 16px;
@@ -104,20 +109,21 @@ body {
   }
 
 .LogPage {
-    background-color: #867c54;
-    width: 1500px;
-    height: 1000px;
+    background-color: #6e5902;
+    width: 60%;
+    height: 80%;
     position: absolute;
     border-radius: 25px;
-    left: 480px;
-    top: 150px;
+    left: 20%;
+    top: 15%;
     transition: transform 0.5s ease-in-out;
+    transform: translateY(-135%);
 }
 
 .LogPage.open {
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
-.button:hover {
-    background-color: #0f1e22;
+.LogButton:hover {
+    background-color: #61500a;
   }
