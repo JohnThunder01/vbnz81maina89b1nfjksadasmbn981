@@ -69,6 +69,7 @@ body {
     border-bottom-right-radius: 25px;
 }
 
+
 .menu.open {
     transform: translateX(0);
 }
@@ -109,7 +110,7 @@ body {
     top: 1px;
   }
 
-.LogPage {
+  .LogPage {
     background-color: #ffefaa;
     transition: transform 0.35s ease-in-out;
     transform: translateX(100%);
@@ -117,11 +118,21 @@ body {
     font-weight: 600;
     float: right;
     border: none;
-    padding: 5%;
+    padding: 3%;
     position: fixed;
     inset: 0;
-    width: 20%;
-    left: 70%;
+    width: 17.5%;
+    left: 76.5%;
+}
+
+@media (max-width: 850px) {
+    .LogPage {
+        width: 100%;
+        left: 0%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
 }
 
 .LogPageX {
@@ -151,7 +162,7 @@ body {
   }
 
 input[type=text], input[type=password] {
-    width: 1500;
+    width: 100%;
     padding: 12px 20px;
     display: inline-block;
     border: 1px solid black;
