@@ -66,6 +66,7 @@ body {
     transform: translateX(-100%);
     font-size: 19px;
     font-weight: 600;
+    border-bottom-right-radius: 25px;
 }
 
 .menu.open {
