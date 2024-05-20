@@ -110,16 +110,17 @@ body {
 
 .LogPage {
     background-color: #ffefaa;
-    padding: 5%;
     transition: transform 0.35s ease-in-out;
     transform: translateX(100%);
     font-size: 19px;
     font-weight: 600;
     float: right;
     border: none;
+    padding: 5%;
     position: fixed;
     inset: 0;
-    left: 75%;
+    width: 20%;
+    left: 70%;
 }
 
 .LogPageX {
@@ -216,4 +217,3 @@ input[type=text], input[type=password] {
     font-size: 80%;
     
 }
-
