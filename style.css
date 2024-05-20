@@ -125,7 +125,7 @@ body {
     left: 76.5%;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 800px) {
     .LogPage {
         width: 100%;
         left: -1.5%;
@@ -137,7 +137,7 @@ body {
 
 .LogPageX {
     position: absolute;
-    right: 5%;
+    right: 6%;
     top: 1.5%;
     font-size: 225%;
     display: inline-block;
@@ -163,16 +163,16 @@ body {
 
 input[type=text], input[type=password] {
     width: 97%;
-    padding: 3.5% 4.5%;
+    padding: 3% 4.5%;
     display: inline-block;
-    border: 1px solid black;
+    border: 2.5px solid black;
     box-sizing: border-box;
 }
 
 .submit {
     background-color: #000000;
     color: rgb(255, 255, 255);
-    padding: 3%;
+    padding: 2.5%;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -200,11 +200,12 @@ input[type=text], input[type=password] {
 .LoginTittle {
     margin-bottom: 10%;
     text-align: left;
+    margin-left: 5px;
 }
 
 .usernameBox {
     margin-top: 0%;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #f9f185;
     color:  black;
     font-weight: bold;
@@ -214,7 +215,7 @@ input[type=text], input[type=password] {
 
 .passwordBox {
     margin-top: 10%;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #f9f185;
     color: black;
     font-weight: bold;
