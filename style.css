@@ -128,17 +128,17 @@ body {
 @media (max-width: 850px) {
     .LogPage {
         width: 100%;
-        left: 0%;
+        left: -1.5%;
         top: 0;
-        right: 0;
+        right: auto;
         bottom: 0;
     }
 }
 
 .LogPageX {
     position: absolute;
-    right: 3%;
-    top: 1%;
+    right: 5%;
+    top: 1.5%;
     font-size: 225%;
     display: inline-block;
     background-color: #ffefaa;
@@ -162,7 +162,7 @@ body {
   }
 
 input[type=text], input[type=password] {
-    width: 100%;
+    width: 97%;
     padding: 3.5% 4.5%;
     display: inline-block;
     border: 1px solid black;
@@ -226,5 +226,6 @@ input[type=text], input[type=password] {
 .BetaLogin {
     text-align: center;
     font-size: 80%;
+    width: 97%;
     
 }
