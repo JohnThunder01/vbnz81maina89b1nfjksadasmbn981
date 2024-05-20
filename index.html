@@ -22,17 +22,19 @@
             <form id="login-form">
                 <br>
                 <h1 class="LoginTittle">Login</h1>
-                <label for="username">Username :</label>
+                <label for="username"></label>
                 <br>
-                <input type="text" id="username" name="username" placeholder="Enter Your Username" required>
-                <br><br>
-                <label for="password">Password :</label>
+                <input class="usernameBox" type="text" id="username" name="username" placeholder="Enter Your Username" required>
+                <label for="password"></label>
                 <br>
-                <input type="password" id="password" name="password" placeholder="Enter Your Password" required>
-                <br>
+                <input class="passwordBox" type="password" id="password" name="password" placeholder="Enter Your Password" required>
+                <div id="error-message" class="error-message"></div>
                 <button class="submit" type="submit">Log In</button>
+                <br>
+                <p class="BetaLogin">Account Creation Will Be Available When The Main Version
+                    1.0 Is Released. <br><br> Progress Can't Be Saved Without an Account. 
+                </p>
             </form>
-            <div id="error-message" class="error-message"></div>
         </div>
          
 
