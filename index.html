@@ -16,7 +16,25 @@
 
     <div class="container"></div>
          <button class="LogButton" id="LogButton">Log In</button>
-         <div class="LogPage" id="LogPage"></div>
+         <div class="LogPage" id="LogPage">
+            <button class="LogPageX" id="LogPageX">&#x2715;</button>
+
+            <form id="login-form">
+                <br>
+                <h1 class="LoginTittle">Login</h1>
+                <label for="username">Username :</label>
+                <br>
+                <input type="text" id="username" name="username" placeholder="Enter Your Username" required>
+                <br><br>
+                <label for="password">Password :</label>
+                <br>
+                <input type="password" id="password" name="password" placeholder="Enter Your Password" required>
+                <br>
+                <button class="submit" type="submit">Log In</button>
+            </form>
+            <div id="error-message" class="error-message"></div>
+        </div>
+         
 
     <div class="containerI">
         <button class="menu-btn" id="menu-btn">&#9776;</button>
