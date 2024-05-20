@@ -1,14 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Mainfont";
+    font-family: "MainFont", sans-serif;
     background-color: #0B1215;
 }
 
 @font-face {
     font-family: "MainFont";
     src: url(assets/Poetsen_One/PoetsenOne-Regular.ttf);
-    font-weight: Bold;
+    font-weight: bold;
 }
 
 .header {
@@ -17,7 +17,7 @@ body {
     padding: 23px;
 }
 
-.SubHeader { 
+.SubHeader {
     color: black;
     float: left;
     position: absolute;
@@ -31,6 +31,19 @@ body {
     text-align: left;
     font-family: MainFont;
     margin-left: 2.9%;
+}
+
+@media (max-width: 1350px) {
+    .header_tittle {
+        margin-left: 15%;
+        font-size: 110%;
+    }
+
+    .SubHeader {
+        margin-left: 21%;
+        top: 10px;
+        font-size: 75%;
+    }   
 }
 
 .containerI {
@@ -50,6 +63,7 @@ body {
     border-radius: 20px;
     padding: 10px;
     border-end-end-radius: 90px;
+    margin-left: 1px;
     z-index: 1;
 }
 
@@ -69,7 +83,6 @@ body {
     font-weight: 600;
     border-bottom-right-radius: 25px;
 }
-
 
 .menu.open {
     transform: translateX(0);
@@ -91,8 +104,7 @@ body {
     background-color: #ddd;
 }
 
-
-.LogButton{
+.LogButton {
     position: absolute;
     display: inline-block;
     padding: 12px 23px;
@@ -109,9 +121,9 @@ body {
     border: none;
     right: 1px;
     top: 1px;
-  }
+}
 
-  .LogPage {
+.LogPage {
     background-color: #ffefaa;
     transition: transform 0.35s ease-in-out;
     transform: translateX(100%);
@@ -124,7 +136,7 @@ body {
     inset: 0;
     width: 17.5%;
     left: 76.5%;
-    z-index: 2; 
+    z-index: 2;
 }
 
 @media (max-width: 800px) {
@@ -135,6 +147,8 @@ body {
         right: auto;
         bottom: 0;
     }
+
+
 }
 
 .LogPageX {
@@ -144,7 +158,7 @@ body {
     font-size: 225%;
     display: inline-block;
     background-color: #ffefaa;
-    border: none    ;
+    border: none;
     font-weight: 550;
     color: #000000;
 }
@@ -158,10 +172,9 @@ body {
     transform: translateX(0);
 }
 
-
 .LogButton:hover {
     background-color: #61500a;
-  }
+}
 
 input[type=text], input[type=password] {
     width: 97%;
@@ -209,7 +222,7 @@ input[type=text], input[type=password] {
     margin-top: 0%;
     border-radius: 10px;
     background-color: #f9f185;
-    color:  black;
+    color: black;
     font-weight: bold;
     width: 100%;
     font-size: 80%;
@@ -230,7 +243,6 @@ input[type=text], input[type=password] {
     text-align: center;
     font-size: 80%;
     width: 97%;
-    
 }
 
 ::placeholder {
