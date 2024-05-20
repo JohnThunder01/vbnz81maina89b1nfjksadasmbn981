@@ -13,23 +13,35 @@ body {
 
 .header {
     color: black;
-    background-color: rgb(233, 210, 0);
+    background-color: #ffdf50;
     padding: 23px;
 }
 
+.SubHeader { 
+    color: black;
+    float: left;
+    position: absolute;
+    margin-left: 250px;
+    top: 13px;
+    font-size: 18px;
+}
+
 .header_tittle {
-    font-size: 1.2vw;
+    font-size: 30px;
     text-align: left;
     font-family: MainFont;
     margin-left: 70px;
-    
+}
+
+.containerI {
+    display: flex;
 }
 
 .menu-btn {
     position: absolute;
     top: 15px;
     left: 25px;
-    font-size: 1vw;
+    font-size: 24px;
     background-color: #000000;
     color: #fff;
     border: none;
@@ -41,12 +53,12 @@ body {
 
 .menu {
     background-color: #fff1b3;
-    width: 9vw;
-    padding: 0.5vw;
+    width: 200px;
+    padding: 10px;
     margin-top: 0px;
     transition: transform 0.35s ease-in-out;
     transform: translateX(-100%);
-    font-size: 0.8vw;
+    font-size: 19px;
     font-weight: 600;
 }
 
@@ -71,9 +83,10 @@ body {
 }
 
 
-.button {
+.LogButton{
+    position: absolute;
     display: inline-block;
-    padding: 0.5vw 1vw;
+    padding: 12px 23px;
     background-color: #000000;
     color: white;
     text-align: center;
@@ -85,8 +98,26 @@ body {
     margin-right: 35px;
     font-family: "MainFont";
     float: right;
+    border: none;
+    right: 1px;
+    top: 1px;
   }
-  
-  .button:hover {
+
+.LogPage {
+    background-color: #867c54;
+    width: 1500px;
+    height: 1000px;
+    position: absolute;
+    border-radius: 25px;
+    left: 480px;
+    top: 150px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.LogPage.open {
+    transform: translateX(0);
+}
+
+.button:hover {
     background-color: #0f1e22;
   }
