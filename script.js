@@ -28,7 +28,7 @@ form.addEventListener('submit', (event) => {
     const password = document.getElementById('password').value;
 
     // Perform login validation and authentication here
-    if (username === 'admin' && password === 'password') {
+    if (username === 'Guest01' && password === 'Guest404') {
         // Successful login, redirect to another page or perform other actions
         window.location.href = 'dashboard.html';
     } else {
