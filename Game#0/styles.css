@@ -1,0 +1,78 @@
+body {
+  background-color: #131e22;
+}
+
+#game-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 12.5px;
+  width: 600px;
+  height: 600px;;
+  margin-left: 37.5%;
+  z-index: 2;
+  
+}
+
+.grid-item {
+  background-color: #ffc936;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 450%;
+  font-weight: bold;
+  font-family: "MainFont";
+  border: 50px rgb(255, 0, 0);
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.game-grid-background-box {
+  background-color: #ff4040;
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  margin-left: 35.2%;
+  top: 400px;
+  z-index: 1;
+  border-radius: 25px;
+}
+
+@font-face {
+  font-family: "MainFont";
+  src: url(assets/Poetsen_One/PoetsenOne-Regular.ttf);
+  font-weight: bold; 
+  font-size: 200px;
+}
+
+
+.tittle {
+  text-align: left;
+  font-family: "MainFont";
+  font-size: 75px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-top: 75px;
+  color: rgb(255, 0, 0);
+
+}
+
+.score {
+  font-family: "MainFont";
+  text-align: center;
+  margin-bottom: 125px;
+  font-size: 50px;
+  color: rgb(255, 0, 0);
+  
+}
+
+.message {
+  color: red;
+  text-align: left;
+  margin-left: 75%;
+  border: 10px; 
+  top: 30%;
+  font-size: 25px;
+  font-family: "MainFont";
+  position: absolute;
+}
