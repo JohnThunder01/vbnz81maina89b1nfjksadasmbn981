@@ -90,7 +90,7 @@ body {
 
 .GameBTN_2048:hover {
     cursor: pointer;
-    background-color: #686868;
+    background-color: #5e0052;
     color: #8b00a0;
     text-shadow: 4.5px 4.5px rgb(0, 0, 0);
 }
