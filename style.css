@@ -75,7 +75,7 @@ body {
     position: absolute;
     background-color: none;
     top: 25%;
-    left: 8%;
+    left: 40%;
     font-size: 55px;
     z-index: 1;
     border: none;
@@ -84,6 +84,15 @@ body {
     font-family: "MainFont";
     border-radius: 9px;
     background-color: #ff0000;
+    color: #000000;
+    text-shadow: 3px 3px white;
+}
+
+.GameBTN_2048:hover {
+    cursor: pointer;
+    background-color: #686868;
+    color: #ff0000;
+    text-shadow: 4.5px 4.5px rgb(0, 0, 0);
 }
 
 .menu-btn:hover {
@@ -97,7 +106,7 @@ body {
     padding: 10px;
     margin-top: 0px;
     transition: transform 0.35s ease-in-out;
-    transform: translateX(-100%);
+    transform: translateX(-110%);
     font-size: 19px;
     font-weight: 600;
     border-bottom-right-radius: 10px;
