@@ -83,7 +83,7 @@ body {
     height: 150px;
     font-family: "MainFont";
     border-radius: 9px;
-    background-color: #ff0000;
+    background-color: #8b00a0;
     color: #000000;
     text-shadow: 3px 3px white;
 }
@@ -91,9 +91,26 @@ body {
 .GameBTN_2048:hover {
     cursor: pointer;
     background-color: #686868;
-    color: #ff0000;
+    color: #8b00a0;
     text-shadow: 4.5px 4.5px rgb(0, 0, 0);
 }
+
+.divider {
+    margin: none;
+    border-color: #000000;
+    border: 1;
+    border-style: solid;
+    border-radius: 100px;
+}
+
+.MenuDetails {
+    color: rgb(255, 0, 0);
+    text-shadow: 2.25px 2.25px black;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
 
 .menu-btn:hover {
     background-color: #61500a;
